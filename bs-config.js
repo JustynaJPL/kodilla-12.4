@@ -1,4 +1,3 @@
-
 /*
  |--------------------------------------------------------------------------
  | Browser-sync config file
@@ -19,15 +18,9 @@ module.exports = {
             "port": 9091
         }
     },
-    "files": [
-    '*.html',
-    'css/*.css',
-    'js/*.js'
-    ],
+    "files": ["*.html", "css/*.css", "js/*.js"],
     "watchOptions": {},
-    "server": {
-    index: "index.html"
-    },
+    "server": true,
     "proxy": false,
     "port": 3000,
     "middleware": false,
