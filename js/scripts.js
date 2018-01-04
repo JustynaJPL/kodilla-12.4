@@ -1,5 +1,5 @@
 $(function() {
-    var url = 'http://api.icndb.com/jokes/random';
+    var url = 'https://api.icndb.com/jokes/random';
    
     function getJoke() {
         var xhr = new XMLHttpRequest();
